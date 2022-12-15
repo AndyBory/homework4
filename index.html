@@ -1,28 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Flex-layout</title>
-    <link rel="stylesheet" href="./assets/styles/reset.css"/>
-    <link rel="stylesheet" href="./assets/styles/style.css">
-    </head>
-    <body class="">
-      <header class="header-img">
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body class="body">
+    <header class="header-img">
+      <article class="header-article">
+        <h1 class="article-heading">Welcome to Acme Web Solutions</h1>
+        <p class="article-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum
+          error earum soluta voluptatum nisi laboriosam eos saepe asperiores
+          dolorum.
+        </p>
+        <a href="#section-b" class="button">Read More</a>
+      </article>
+    </header>
+    <main class="main">
+      <section class="section-a">
         <article class="container">
-          <h1 class="article-heading">Welcome to Acme Web Solutions</h1>
-          <p class="article-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.</p>
-          <a href="section-b" class="button">Read More</a>
+          <h2 class="content-title">Web & Application Development</h2>
+          <p class="sec-a-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint
+            eligendi possimus? Unde officiis magnam laborum ipsa distinctio
+            odio, vero dolores dicta aliquam aperiam repellendus. Perferendis
+            officiis deserunt velit voluptas nobis sequi animi totam,
+            accusantium, ex eius quia, natus quo?
+          </p>
         </article>
-      </header>
-      <main class="">
-        <section id="section-a">
-          <article class="container">
-            <h2 class="content-title">Web & Application Development</h2>
-            <p class="sec-a-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi animi totam, accusantium, ex eius quia, natus quo?</p>
-          </article>
-        </section>
-      </main>
-    </body>
+      </section>
+      <section id="section-b" class="sec-b">
+        <article class="container-b">
+          <img
+            class="column-img img-wrapper"
+            src="./assets/images/photo1.jpeg"
+            alt="Development on laptop"
+          />
+          <div class="div-sec-b">
+            <h2 class="content-title-b">Web Development</h2>
+            <p class="sec-b-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </div>
+        </article>
+        <article class="container-b">
+          <img
+            class="column-img img-wrapper"
+            src="./assets/images/photo2.jpeg"
+            alt="Mobile phone"
+          />
+          <div class="div-sec-b">
+            <h2 class="content-title-b">Mobile Applications</h2>
+            <p class="sec-b-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </div>
+        </article>
+        <article class="container-b">
+          <img
+            class="column-img img-wrapper"
+            src="./assets/images/photo3.jpeg"
+            alt="Diagram on laptop"
+          />
+          <div class="div-sec-b">
+            <h2 class="content-title-b">Tech Marketing</h2>
+            <p class="sec-c-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              culpa neque quo eum et quasi velit voluptatum cum maiores
+              exercitationem.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="section-c" class="sec-c">
+        <article class="container-c">
+          <h2 class="content-title">We handle all of your digital needs</h2>
+          <p class="sec-b-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat cupiditate, dolore eius! Minus, explicabo.
+          </p>
+        </article>
+      </section>
+      <section class="section-d">
+        <article class="container-d">
+          <h2 class="content-title">Contact Us</h2>
+          <p class="sec-d-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
+          </p>
+          <a href="contact@acmewebsolutions.test">contact@acmewebsolutions.test</a>
+        </article>
+        <article class="container-e">
+          <h2 class="content-title">About Our Company</h2>
+          <p class="sec-d-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Acme Web Solutions</p>
+      <p>Project By <a class="tm-link" href="https://traversymedia.com/">Traversy Media</a></p>
+    </footer>
+  </body>
 </html>
